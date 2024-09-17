@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",      // Define el directorio base
+    "paths": {
+      "@/*": ["src/*"]   // Define el alias "@" apuntando a la carpeta "src"
+    }
+  },
+  "exclude": ["node_modules", "dist"]  // Excluye carpetas no necesarias
+}
